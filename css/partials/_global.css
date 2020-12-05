@@ -1,0 +1,41 @@
+.site-buttons{
+    padding-top: 2%;
+    padding: 5px 10px;
+    font: normal 500 11px/15px ;
+    position: relative;
+    border: 1px ;
+    border-radius: 4px;
+    margin: 4px;
+}
+
+.button.primary-button{
+    margin-left: 400px;
+    background: #d2cdcd;
+    background-clip: padding-box;
+    color: black;
+    transition: background .6s ease;
+    box-shadow: var(--box-shadow);
+}
+
+.button.primary-button:hover{
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    color:whitesmoke;
+    
+}
+
+.button.secondary-button{
+    margin-left: 50px;
+    background: #d2cdcd;
+    background-clip: padding-box;
+    color: black;
+    transition: background .6s ease;
+    box-shadow: var(--box-shadow);
+}
+
+.button.secondary-button:hover{
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    color:whitesmoke;
+    
+}
